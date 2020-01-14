@@ -2,127 +2,146 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-// @media #{$brk-medium} {
 
     .container {
-      @include medium;
+      @include medium {
       max-width: 1400px;
       display: block;
       margin-left: auto;
       margin-right: auto;
+      }
     }
     
     .centered {
-      @include medium;
+      @include medium {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      }
     }
     
     .row {
-      @include medium;
+      @include medium {
       flex-direction: row;
+      }
     }
     
     [class^=col] {
-      @include medium;
+      @include medium {
       display: flex;
       justify-content: center;
       margin-top: 0;
       align-items: center;
+      }
     }
     
     [class^=col] + [class^=col] {
-      @include medium;
+      @include medium {
       margin-left: 10px;
+      }
     }
     
     .col-1 {
-      @include medium;
+      @include medium {
       flex-basis: 8.33%;
+      }
     }
     
     .col-2 {
-      @include medium;
+      @include medium {
       flex-basis: 16.67%;
+      }
     }
     
     .col-3 {
-      @include medium;
+      @include medium {
       flex-basis: 25.00%;
+      }
     }
     
     .col-4 {
-      @include medium;
+      @include medium {
       flex-basis: 33.33%;
+      }
     }
     
     .col-5 {
-      @include medium;
+      @include medium {
       flex-basis: 41.67%;
+      }
     }
     
     .col-6 {
-      @include medium;
+      @include medium {
       flex-basis: 50.00%;
+      }
     }
     
     .col-7 {
-      @include medium;
+      @include medium {
       flex-basis: 58.33%;
+      }
     }
     
     .col-8 {
-      @include medium;
+      @include medium {
       flex-basis: 66.67%;
+      }
     }
     
     .col-9 {
-      @include medium;
-      flex-basis: 75.00%
+      @include medium {
+      flex-basis: 75.00%;
+      }
     }
     
     .col-10 {
-      @include medium;
+      @include medium {
       flex-basis: 83.33%;
+      }
     }
     
     .col-11 {
-      @include medium;
+      @include medium {
       flex-basis: 91.67%;
+      }
     }
     
     .col-12 {
-      @include medium;
+      @include medium {
       flex-basis: 100%;
+      }
     }
     
     .nav {
-      @include medium;
+      @include medium {
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
+      }
     }
     
     .nav-link {
-      @include medium;
+      @include medium {
       flex-basis: 100px;
+      }
     }
     
     .btn {
-      @include medium;
+      @include medium {
       padding: 10px 30px;
+      }
     }
     
     .btn + .btn {
-      @include medium;
+      @include medium {
       margin-left: 10px;
+      }
     }
     
     .logo {
-      @include medium;
+      @include medium {
       margin-left: initial;
       margin-right: initial;
+      }
     }
-    
-    // }

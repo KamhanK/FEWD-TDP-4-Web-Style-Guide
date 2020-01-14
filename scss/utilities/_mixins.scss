@@ -1,7 +1,7 @@
-$brk-medium: '(min-width: 768px)';
+// Mixins
 
 @mixin medium {
-    @media (min-width: #{$brk-medium}) {
+    @media ($brk-medium) {
       @content;
     }
   }
