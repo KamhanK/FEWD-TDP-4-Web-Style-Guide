@@ -475,6 +475,34 @@ a {
 }
 
 /* ============================================= */
+/*              Forms                            */
+/* ============================================= */
+/* line 6, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_forms.scss */
+.form {
+  flex-basis: 100%;
+}
+
+/* line 10, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_forms.scss */
+.input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+
+/* line 19, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_forms.scss */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 /* line 6, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_navigation.scss */
@@ -499,6 +527,37 @@ a {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
+}
+
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 6, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_images.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 15, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_images.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 25, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_images.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ============================================= */
@@ -588,6 +647,111 @@ a {
 /* line 72, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
+}
+
+/* ============================================= */
+/*              Media Queries                    */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 7, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 14, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 20, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .row {
+    flex-direction: row;
+  }
+  /* line 24, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+  /* line 31, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  [class^=col] + [class^=col] {
+    margin-left: 10px;
+  }
+  /* line 35, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-1 {
+    flex-basis: 8.33%;
+  }
+  /* line 39, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-2 {
+    flex-basis: 16.67%;
+  }
+  /* line 43, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-3 {
+    flex-basis: 25.00%;
+  }
+  /* line 47, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-4 {
+    flex-basis: 33.33%;
+  }
+  /* line 51, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-5 {
+    flex-basis: 41.67%;
+  }
+  /* line 55, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-6 {
+    flex-basis: 50.00%;
+  }
+  /* line 59, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-7 {
+    flex-basis: 58.33%;
+  }
+  /* line 63, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-8 {
+    flex-basis: 66.67%;
+  }
+  /* line 67, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-9 {
+    flex-basis: 75.00%;
+  }
+  /* line 71, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-10 {
+    flex-basis: 83.33%;
+  }
+  /* line 75, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-11 {
+    flex-basis: 91.67%;
+  }
+  /* line 79, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* line 83, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 89, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
+  /* line 93, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 97, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 101, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
