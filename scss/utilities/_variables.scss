@@ -1,7 +1,16 @@
+// color variables
 
-$color-pri-font: #777;
+
+$color-primary-font: #777;
 $color-primary: #58e1c1;
-$color-link: #51ddfc;
-$color-btn-link: #fff;
+$color-white: #fff;
 
+$color-default: #51ddfc;
+$color-error: #e4757a;
+$color-info: #927bc1;
+$color-success: #63cc82;
+$color-warning: #fd7856;
 
+// media query variables
+
+$brk-medium: '(min-width: 768px)';
