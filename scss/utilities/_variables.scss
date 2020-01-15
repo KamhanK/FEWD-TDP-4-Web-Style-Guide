@@ -10,7 +10,7 @@ $color-info: #927bc1;
 $color-success: #63cc82;
 $color-warning: #fd7856;
 
-$colors: ('$color-default', '$color-error', '$color-info', '$color-success', '$color-warning');
+$colors: ($color-default, $color-error, $color-info, $color-success, $color-warning);
 
 // Media Query Variables
 
