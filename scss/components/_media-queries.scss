@@ -119,11 +119,10 @@
       justify-content: flex-end;
       align-items: center;
       }
-    }
-    
-    .nav-link {
-      @include medium {
-      flex-basis: 100px;
+      &-link {
+        @include medium {
+        flex-basis: 100px;
+        }
       }
     }
     

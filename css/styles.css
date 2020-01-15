@@ -450,26 +450,31 @@ a {
 }
 
 /* line 16, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+.btn:hover {
+  background-color: #9cecfd;
+}
+
+/* line 20, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 20, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 24, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 24, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 28, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 28, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 32, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 32, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 36, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -513,7 +518,7 @@ a {
   flex-direction: column;
 }
 
-/* line 13, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_navigation.scss */
+/* line 11, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -523,7 +528,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 24, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_navigation.scss */
+/* line 21, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -789,28 +794,28 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 124, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  /* line 122, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
   .nav-link {
     flex-basis: 100px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 130, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  /* line 129, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
   .btn {
     padding: 10px 30px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 136, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  /* line 135, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 142, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
+  /* line 141, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;

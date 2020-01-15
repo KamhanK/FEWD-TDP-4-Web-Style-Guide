@@ -12,7 +12,11 @@
     text-transform: uppercase;
     border-radius: 5px;
   }
-  
+
+.btn:hover {
+  background-color: lighten($color-default, 15%);
+}
+
   .default {
     background-color: $color-default;
   }
