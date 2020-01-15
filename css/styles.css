@@ -449,32 +449,52 @@ a {
   border-radius: 5px;
 }
 
-/* line 16, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 17, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .btn:hover {
   background-color: #9cecfd;
 }
 
-/* line 20, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 17, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+.btn:hover {
+  background-color: #9cecfd;
+}
+
+/* line 17, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+.btn:hover {
+  background-color: #9cecfd;
+}
+
+/* line 17, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+.btn:hover {
+  background-color: #9cecfd;
+}
+
+/* line 17, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+.btn:hover {
+  background-color: #9cecfd;
+}
+
+/* line 26, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 24, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 30, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 28, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 34, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 32, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 38, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 36, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
+/* line 42, ../../../../../Users/shoaibkhan/Documents/Treehouse/Techdegree Projects/Techdegree-Project-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }

@@ -13,9 +13,15 @@
     border-radius: 5px;
   }
 
-.btn:hover {
-  background-color: lighten($color-default, 15%);
-}
+  @each $btn in $colors {
+    .btn:hover {
+      background-color: lighten($color-default, 15%);
+    }
+  }
+
+// .btn:hover {
+//   background-color: lighten($color-default, 15%);
+// }
 
   .default {
     background-color: $color-default;
