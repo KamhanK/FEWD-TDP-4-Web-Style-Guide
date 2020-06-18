@@ -1,6 +1,6 @@
 # Techdegree Project 4 - Web Style Guide
 
-**Skills Used:**
+**Skills & Technologies Used:**
 
 - CSS
 - Sass
